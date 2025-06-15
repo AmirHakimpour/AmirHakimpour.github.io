@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WDQY6DRD9F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-WDQY6DRD9F');
+  </script>
+
+  <!-- SEO: Unique title + meta description -->
+  <title>H&H Business Insights – AI-Powered Strategy & Growth Consulting</title>
+  <meta name="description"
+    content="Data-driven, AI-powered strategic planning and marketing solutions from H&H Business Insights. Book your free growth audit today." />
+
+  <!-- Open Graph (social sharing) -->
+  <meta property="og:title" content="H&H Business Insights – AI-Powered Strategy & Growth Consulting" />
+  <meta property="og:description"
+    content="Cutting-edge AI analytics, tailored strategies, and transparent ROI reporting for scalable business growth." />
+  <meta property="og:image" content="https://aibusinessinsights.ca/assets/og-image.png" />
+  <meta property="og:url" content="https://aibusinessinsights.ca/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Locale -->
+  <meta property="og:site_name" content="H&H Business Insights" />
+  <meta property="og:locale" content="en_CA" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://aibusinessinsights.ca/" />
+
+  <!-- title favicon logo -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/HandH_logored.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+
+</head>
+
+<body id="Home">
+
+  <!-- HEADER goes here (from previous step) -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Logo + Name -->
+      <a href="#" class="logo">
+        <!-- white logo shown by default -->
+        <img src="assets/HandH_logowhite.png" alt="H&H Business Insights" class="logo-img logo-white">
+        <!-- red logo hidden until scroll -->
+        <img src="assets/HandH_logored.png" alt="H&H Business Insights" class="logo-img logo-red">
+        <span class="logo-text">H&amp;H Business Insights</span>
+      </a>
+
+
+      <!-- Nav links -->
+      <nav class="nav" data-nav>
+        <ul class="nav-list">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#why-choose">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger toggle (mobile) -->
+      <button class="nav-toggle" data-nav-toggler aria-label="Toggle menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- HERO BANNER -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content container">
+      <h1>H&H Business Insights</h1>
+      <p>Smarter Strategy. Faster Growth. Powered by AI</p>
+      <a href="#services" class="btn btn-primary">Learn More</a>
+    </div>
+  </section>
+
+  <!-- INFO STRIP -->
+  <section class="info-strip">
+    <div class="container info-items">
+      <div class="info-item">
+        <div>
+          <small>Have a question?</small>
+          <i class="fas fa-phone-alt"></i>
+          <strong>+1 (604) 388-9748</strong>
+        </div>
+      </div>
+      <div class="info-item">
+        <div>
+          <small>Mon – Fri</small>
+          <i class="fas fa-clock"></i>
+          <strong>09:00 – 16:00</strong>
+        </div>
+      </div>
+      <div class="info-item">
+        <div>
+          <small>Drop us a mail</small>
+          <i class="fas fa-envelope"></i>
+          <strong>support@hhbusinessinsights.ca</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US / FEATURES -->
+  <section id="why-choose" class="why-choose-section scene">
+    <div class="container">
+      <h2 class="why-choose-section__title">Why Choose Us</h2>
+      <p class="why-choose-section__intro">
+        We help businesses scale efficiently through data, AI, and actionable insights.
+      </p>
+
+      <div class="feature-grid">
+        <!-- Card 1 -->
+        <article class="feature-card card--ai">
+          <div class="feature-card__image">
+            <img src="assets/bg-ai-personal-red.png" alt="Abstract AI network">
+          </div>
+          <div class="feature-card__body">
+            <h3>AI-Powered Insights</h3>
+            <p>Advanced analytics &amp; machine learning.</p>
+            <button class="feature-card__readmore">Read more</button>
+          </div>
+          <div class="feature-card__overlay">
+            <div class="feature-card__details">
+              <p>
+                Our AI engine ingests raw data to surface trends, anomaly
+                detection, and predictive forecasts. so you stay two steps
+                ahead of the competition.
+              </p>
+              <button class="feature-card__close">Close</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="feature-card card--roi">
+          <div class="feature-card__image">
+            <img src="assets/bg-roi-minimal.png" alt="Bar chart growth">
+          </div>
+          <div class="feature-card__body">
+            <h3>ROI-Driven Growth</h3>
+            <p>Clear KPIs &amp; transparent reporting.</p>
+            <button class="feature-card__readmore">Read more</button>
+          </div>
+          <div class="feature-card__overlay">
+            <div class="feature-card__details">
+              <p>
+                We define and track your key metrics in real-time, ensuring
+                every dollar you invest delivers measurable ROI through
+                transparent dashboards.
+              </p>
+              <button class="feature-card__close">Close</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="feature-card card--tailored">
+          <div class="feature-card__image">
+            <img src="assets/bg-tailored-minimal.png" alt="Custom strategy diagram">
+          </div>
+          <div class="feature-card__body">
+            <h3>Tailored Strategies</h3>
+            <p>Custom go-to-market &amp; pricing plans.</p>
+            <button class="feature-card__readmore">Read more</button>
+          </div>
+          <div class="feature-card__overlay">
+            <div class="feature-card__details">
+              <p>
+                From product positioning to pricing, we craft strategies
+                that fit your unique market and customer needs, maximizing
+                adoption and revenue.
+              </p>
+              <button class="feature-card__close">Close</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="feature-card card--collab">
+          <div class="feature-card__image">
+            <img src="assets/bg-collab-minimal.png" alt="Collaborative partnership">
+          </div>
+          <div class="feature-card__body">
+            <h3>Collaborative Partnership</h3>
+            <p>Workshops, training &amp; knowledge transfer.</p>
+            <button class="feature-card__readmore">Read more</button>
+          </div>
+          <div class="feature-card__overlay">
+            <div class="feature-card__details">
+              <p>
+                We work side-by-side with your team, delivering hands-on
+                workshops and training so your people can immediately
+                apply new skills.
+              </p>
+              <button class="feature-card__close">Close</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-intro">How we help your business grow</p>
+      <div class="services-grid">
+        <!-- Strategic Business Planning -->
+        <article class="service-card">
+          <i class="fas fa-chart-pie"></i>
+          <h3>Strategic Business Planning</h3>
+          <ul>
+            <li>Competitive analysis using AI-driven insights</li>
+            <li>Business model innovation &amp; validation</li>
+            <li>Market entry and positioning strategy</li>
+            <li>Long-term growth roadmaps</li>
+          </ul>
+          <a href="#booking" class="service-cta">
+            <img src="assets/planning-svgrepo-com.svg" alt="plan" class="cta-icon">
+            Book a Strategy Session
+          </a>
+        </article>
+
+        <!-- Startup & Founder Advisory -->
+        <article class="service-card">
+          <i class="fas fa-rocket"></i>
+          <h3>Startup &amp; Founder Advisory</h3>
+          <ul>
+            <li>Lean startup coaching &amp; MVP validation</li>
+            <li>Go-to-market strategy with data-backed decisions</li>
+            <li>Investor pitch prep and funding support</li>
+            <li>Predictive analytics for early-stage scaling</li>
+          </ul>
+          <a href="#booking" class="service-cta">
+            <img src="assets\guide-svgrepo-com.svg" alt="guide" class="cta-icon">
+            Apply for Startup Advisory</a>
+        </article>
+
+        <!-- SME Growth Consulting -->
+        <article class="service-card">
+          <i class="fas fa-chart-line"></i>
+          <h3>SME Growth Consulting</h3>
+          <ul>
+            <li>Customer segmentation powered by AI</li>
+            <li>Expansion &amp; diversification strategy</li>
+            <li>Process optimization and operational streamlining</li>
+            <li>Value proposition refinement using machine learning tools</li>
+          </ul>
+          <a href="#booking" class="service-cta">
+            <img src="assets/growth-svgrepo-com.svg" alt="growth" class="cta-icon">
+            Get a Free Growth Audit</a>
+        </article>
+
+        <!-- AI & Digital Transformation -->
+        <article class="service-card">
+          <i class="fas fa-robot"></i>
+          <h3>AI for Business Innovation</h3>
+          <ul>
+            <li>AI-readiness assessments</li>
+            <li>No-code/low-code AI tool integration</li>
+            <li>Automation of sales, support, and marketing workflows</li>
+            <li>Use-case identification and adoption roadmap</li>
+          </ul>
+          <a href="#booking" class="service-cta">
+            <img src="assets/ai-ai-svgrepo-com.svg" alt="AI" class="cta-icon">
+            Start Your AI Journey</a>
+        </article>
+
+        <!-- AI-Enhanced Forecasting & Decision-Making -->
+        <article class="service-card">
+          <i class="fas fa-chart-area"></i>
+          <h3>AI-Enhanced Forecasting &amp; Decision-Making</h3>
+          <ul>
+            <li>ML-based revenue &amp; sales forecasting</li>
+            <li>Scenario planning and cost optimization</li>
+            <li>AI-powered budgeting and resource planning</li>
+          </ul>
+          <a href="#booking" class="service-cta">
+            <img src="assets\curves-ahead-svgrepo-com (1).svg" alt="forecasting" class="cta-icon">
+            Book a Forecasting Demo</a>
+        </article>
+
+        <!-- AI in Marketing & CX -->
+        <article class="service-card">
+          <i class="fas fa-bullhorn"></i>
+          <h3>AI in Marketing &amp; CX</h3>
+          <ul>
+            <li>Predictive customer insights &amp; segmentation</li>
+            <li>Smart CRM integration and AI-based lead scoring</li>
+            <li>Personalized content generation with generative AI</li>
+          </ul>
+          <a href="#booking" class="service-cta">
+            <img src="assets\marketing-hand-give-bar-chart-statistic-svgrepo-com.svg" alt="marketing" class="cta-icon">
+            Explore AI Marketing Tools</a>
+        </article>
+
+        <!-- Workshops & Executive Training -->
+        <article class="service-card">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <h3>Workshops &amp; Executive Training</h3>
+          <ul>
+            <li>AI for Entrepreneurs: Practical Applications</li>
+            <li>Strategic Thinking in the Age of AI</li>
+            <li>Digital Transformation Bootcamps</li>
+            <li>Custom training for teams and incubators</li>
+          </ul>
+          <a href="#booking" class="service-cta">
+            <img src="assets\teacher-svgrepo-com.svg" alt="training" class="cta-icon">
+            Request a Training Plan</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK A SERVICE -->
+  <section id="booking" class="booking-section container scene">
+    <div class="booking-form-wrapper">
+      <h2>Book a Service</h2>
+      <form id="booking-form" class="booking-form">
+        <!-- Honeypot: humans won’t touch this -->
+        <input type="text" name="bot-field" autocomplete="off" tabindex="-1" style="display:none" />
+
+        <!-- real fields… -->
+        <div class="form-row">
+          <label for="bk-name">Your Name</label>
+          <input type="text" id="bk-name" name="from_name" required placeholder="John Duo">
+        </div>
+        <div class="form-row">
+          <label for="bk-email">Your Email</label>
+          <input type="email" id="bk-email" name="reply_to" required placeholder="you@example.com">
+        </div>
+        <div class="form-row">
+          <label for="bk-phone">Phone Number</label>
+          <input type="tel" id="bk-phone" name="phone" pattern="\+?1?[-.\s]?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}"
+            required placeholder="+1 (604) 123-4567">
+        </div>
+        <div class="form-row">
+          <label for="bk-service">Service</label>
+          <select id="bk-service" name="service_type" required>
+            <option value="" disabled selected>Select a service…</option>
+            <option>Strategic Business Planning</option>
+            <option>Startup & Founder Advisory</option>
+            <option>SME Growth Consulting</option>
+            <option>AI for Business Innovation</option>
+            <!-- etc. -->
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="bk-message">Message</label>
+          <textarea id="bk-message" name="message" rows="4" placeholder="How can we help you? (optional)"></textarea>
+        </div>
+        <div class="form-row tos-row">
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="bk-tos" name="tos_agree" required />
+            <label for="bk-tos">I agree to the <button type="button" class="link-button" data-modal-open>Terms of
+                Service</button></label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Booking Request</button>
+      </form>
+      <!-- Terms Modal -->
+      <div id="tos-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="tos-title">
+        <div class="modal-overlay" data-modal-close></div>
+        <div class="modal-content">
+          <button class="modal-close" aria-label="Close Terms">×</button>
+          <h2>Terms of Service</h2>
+          <p><em>Last updated: June 10, 2025</em></p>
+
+          <h3>1. Services</h3>
+          <p>
+            H&amp;H Business Insights (“we,” “us,” “our”) provides strategic business consulting, AI-driven analytics,
+            and tailored training solutions (the “Services”). All engagements are subject to these Terms of Service.
+          </p>
+
+          <h3>2. Engagement &amp; Deliverables</h3>
+          <p>
+            Upon booking, we will deliver the agreed scope—reports, presentations, workshops, or dashboards—within the
+            timeline set out in your proposal. Any change requests must be submitted in writing and may incur additional
+            fees.
+          </p>
+
+          <h3>3. Fees &amp; Payment</h3>
+          <p>
+            All fees are due as stated in your service agreement. Unless otherwise agreed, a 50% deposit is required up
+            front,
+            with the balance payable upon delivery. Late payments incur a 1.5% monthly interest charge.
+          </p>
+
+          <h3>4. Confidentiality</h3>
+          <p>
+            We will treat all client data and materials as confidential. Neither party may disclose the other’s
+            confidential
+            information without prior written consent, except as required by law.
+          </p>
+
+          <h3>5. Intellectual Property</h3>
+          <p>
+            You retain ownership of all data you provide. We grant you a non-exclusive license to use deliverables for
+            your
+            internal business purposes. We retain ownership of our methodologies, templates, and any proprietary tools.
+          </p>
+
+          <h3>6. Cancellation &amp; Rescheduling</h3>
+          <p>
+            You may cancel or reschedule up to 24 hours before your booked session at no cost. Cancellations within 24
+            hours
+            incur a 25% cancellation fee; no-shows incur 50% of the full fee.
+          </p>
+
+          <h3>7. Disclaimer &amp; Limitation of Liability</h3>
+          <p>
+            Our Services are provided “as-is.” We make no guarantees of specific results. To the maximum extent
+            permitted
+            by law, our total liability for any claim arising out of or in connection with these Terms shall not exceed
+            the total fees paid by you for the Services.
+          </p>
+
+          <h3>8. Governing Law</h3>
+          <p>
+            These Terms are governed by the laws of British Columbia, Canada. Any dispute will be resolved in the courts
+            of Vancouver, BC.
+          </p>
+
+          <h3>9. Changes to Terms</h3>
+          <p>
+            We may update these Terms from time to time. We’ll post any changes here with a new “Last updated” date.
+            Continued use of our Services constitutes acceptance of the revised Terms.
+          </p>
+
+          <h3>10. Contact Us</h3>
+          <p>
+            Questions? Email <a href="mailto:support@aibusinessinsights.ca">support@aibusinessinsights.ca</a> or call
+            +1 (604) 388-9748.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT US -->
+  <section id="contact" class="contact-section container scene">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-subtitle">Have questions? Reach out any time:</p>
+    <div class="contact-cards">
+      <a href="mailto:support@aibusinessinsights.ca" class="contact-card" aria-label="Email Us">
+        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+        <h3>Email Us</h3>
+        <p>support@aibusinessinsights.ca</p>
+      </a>
+      <a href="tel:+16041234567" class="contact-card" aria-label="Call Us">
+        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+        <h3>Call Us</h3>
+        <p>+1 (604) 388-9748</p>
+      </a>
+      <a href="https://instagram.com/aibinsight" target="_blank" class="contact-card" aria-label="Instagram">
+        <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+        <h3>Instagram</h3>
+        <p>@aibinsight</p>
+      </a>
+      <a href="https://www.linkedin.com/company/aibinsight" target="_blank" class="contact-card" aria-label="LinkedIn">
+        <div class="contact-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <h3>LinkedIn</h3>
+        <p>linkedin.com/company/aibinsight</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container container">
+      <div class="footer-brand">
+        <img src="assets/HandH_logowhite.png" alt="H&H Business Insights Logo" class="footer-logo">
+        <p>Your partner in AI-powered strategic planning & marketing solutions.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Contact Us</h4>
+        <div class="social-icons">
+          <a href="tel:+16043889748" aria-label="Phone">
+            <i class="fas fa-phone-alt"></i>
+          </a>
+          <a href="mailto:support@aibusinessinsights.ca" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://instagram.com/aibinsight" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/aibinsight" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 H&H Business Insights. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
