@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /assets/
 
-Sitemap: https://aibusinessinsights.ca/sitemap.xml
+Sitemap: https://hnhbi.com/sitemap.xml
