@@ -85,17 +85,17 @@ document
         const title = this.service_type.value;
         const reply_to = this.reply_to.value;
 
-      //   return emailjs.send(
-      //     SERVICE_ID,
-      //     AUTO_REPLY_TEMPLATE,
-      //     {
-      //       name,        
-      //       title,        
-      //       reply_to,    
-      //     },
-      //     USER_ID
-      //   );
-      // })
+        return emailjs.send(
+          SERVICE_ID,
+          AUTO_REPLY_TEMPLATE,
+          {
+            name,        
+            title,        
+            reply_to,    
+          },
+          USER_ID
+        );
+      })
       .then(() => {
         alert('Booking request sent! A confirmation email is on its way.');
         this.reset();
