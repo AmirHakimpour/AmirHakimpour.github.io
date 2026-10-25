@@ -19,7 +19,7 @@
   <!-- SEO: Unique title + meta description -->
   <title>H&H Business Insights – AI-Powered Strategy & Growth Consulting</title>
   <meta name="description"
-    content="Data-driven, AI-powered strategic planning and marketing solutions from H&H Business Insights. Book your free growth audit today." />
+    content="AI-powered strategy and marketing consulting in Vancouver from Dr. Hossein Hakimpour, CM, author of Strategic Thinking with AI. Book a free growth audit." />
 
   <!-- Open Graph (social sharing) -->
   <meta property="og:title" content="H&H Business Insights – AI-Powered Strategy & Growth Consulting" />
@@ -44,6 +44,44 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <!-- Your CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data: founder + book -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://hnhbi.com/#founder",
+        "name": "Hossein Hakimpour",
+        "honorificPrefix": "Dr.",
+        "honorificSuffix": "PhD, CM",
+        "jobTitle": "Founder & Strategic Advisor",
+        "description": "Strategy and marketing consultant, Chartered Marketer, Senior Lecturer, author and strategic AI advisor based in Vancouver, Canada.",
+        "worksFor": { "@type": "Organization", "name": "H&H Business Insights Consultant Corp.", "url": "https://hnhbi.com/" },
+        "affiliation": { "@type": "CollegeOrUniversity", "name": "Fairleigh Dickinson University, Vancouver Campus" },
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Chartered Marketer (CM)",
+          "credentialCategory": "Professional designation",
+          "recognizedBy": { "@type": "Organization", "name": "Canadian Marketing Association" }
+        },
+        "knowsAbout": ["Strategic planning", "Strategic marketing", "SME and startup strategy", "Competitive and market analysis", "Growth strategy", "AI-assisted strategic decision-making", "Organizational diagnosis", "Executive education"],
+        "image": "https://hnhbi.com/assets/ceo-hossein-hakimpour.jpg"
+      },
+      {
+        "@type": "Book",
+        "name": "Strategic Thinking with AI: Foresight, Tools, and Leadership for the Digital Age",
+        "author": { "@id": "https://hnhbi.com/#founder" },
+        "publisher": { "@type": "Organization", "name": "Palgrave Macmillan" },
+        "isbn": "978-3-032-19386-5",
+        "numberOfPages": 446,
+        "image": "https://hnhbi.com/assets/book-strategic-thinking-with-ai.jpg",
+        "url": "https://link.springer.com/book/9783032193872"
+      }
+    ]
+  }
+  </script>
   <!-- EmailJS SDK -->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
@@ -70,6 +108,8 @@
         <ul class="nav-list">
           <li><a href="#Home">Home</a></li>
           <li><a href="#why-choose">About Us</a></li>
+          <li><a href="#founder">Founder</a></li>
+          <li><a href="#book">Book</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
@@ -220,6 +260,368 @@
     </div>
   </section>
 
+  <!-- MEET THE FOUNDER -->
+  <section id="founder" class="founder-section">
+    <div class="container">
+      <h2 class="section-title">Meet Our Founder</h2>
+      <p class="section-intro">The strategist and author behind H&amp;H Business Insights</p>
+
+      <div class="founder-card">
+        <div class="founder-card__side">
+          <div class="founder-card__photo">
+            <img src="assets/ceo-hossein-hakimpour.jpg"
+              alt="Dr. Hossein Hakimpour holding his book Strategic Thinking with AI" width="1001" height="1210"
+              loading="lazy">
+            <a href="#book" class="founder-card__newbook"><i class="fas fa-book-open" aria-hidden="true"></i> New book out now</a>
+            <img class="founder-card__badge" src="assets/chartered-marketer-badge.png"
+              alt="Chartered Marketer (CM) badge" width="360" height="360" loading="lazy">
+          </div>
+        </div>
+
+        <div class="founder-card__body">
+          <h3 class="founder-card__name">Dr. Hossein Hakimpour</h3>
+          <p class="founder-card__role"><span>Strategy &amp; Marketing Consultant</span><span>Chartered Marketer</span><span>Senior Lecturer</span><span>Author</span><span>Strategic AI &amp; Business Advisor</span></p>
+
+          <ul class="founder-stats">
+            <li><strong>20+</strong><span>Years of experience</span></li>
+            <li><strong>PhD</strong><span>Business Administration, Strategic Marketing</span></li>
+            <li><strong>CM</strong><span>Chartered Marketer, Canadian Marketing Association</span></li>
+          </ul>
+
+          <!-- Profile views: About / Credentials / Expertise & Experience -->
+          <div class="founder-tabs" role="tablist" aria-label="Founder profile sections">
+            <button type="button" role="tab" class="founder-tab is-active" id="tab-about" data-tab="about"
+              aria-controls="panel-about" aria-selected="true"><i class="fas fa-user-tie" aria-hidden="true"></i> About</button>
+            <button type="button" role="tab" class="founder-tab" id="tab-credentials" data-tab="credentials"
+              aria-controls="panel-credentials" aria-selected="false" tabindex="-1"><i class="fas fa-award" aria-hidden="true"></i> Credentials</button>
+            <button type="button" role="tab" class="founder-tab" id="tab-expertise" data-tab="expertise"
+              aria-controls="panel-expertise" aria-selected="false" tabindex="-1"><i class="fas fa-briefcase" aria-hidden="true"></i> Expertise &amp; Experience</button>
+          </div>
+
+          <div class="founder-panels">
+            <!-- ABOUT -->
+            <div class="founder-panel is-active" role="tabpanel" id="panel-about" aria-labelledby="tab-about">
+          <p>
+            Dr. Hossein Hakimpour is a strategy and marketing consultant, Chartered Marketer (CM), educator,
+            researcher, and senior academic leader with more than two decades of experience in strategic management,
+            strategic marketing, organizational development, higher education, and executive advisory services. He is
+            a Senior Lecturer at Fairleigh Dickinson University&rsquo;s Vancouver Campus and the Founder and Strategic
+            Advisor of H&amp;H Business Insights in Vancouver, Canada.
+          </p>
+          <p>
+            He holds a PhD in Business Administration with a specialization in Strategic Marketing. His doctoral
+            research examined the link between strategic marketing planning and SME performance, which still shapes
+            his work with entrepreneurs and growing businesses. He also holds the Chartered Marketer designation from
+            the Canadian Marketing Association.
+          </p>
+          <p>
+            Through H&amp;H Business Insights and his independent practice, he has advised startups, SMEs, and
+            organizations in banking, insurance, technology, professional services, and the public sector. His work
+            covers strategic planning, growth strategy, market positioning, competitive analysis, organizational
+            development, business transformation, performance management, and technology-enabled improvement. He has
+            also designed and delivered executive workshops on strategic thinking, leadership, negotiation, CRM
+            adoption, and organizational performance.
+          </p>
+          <p>
+            Before moving to Canada, he held senior academic and executive leadership roles, including Vice Chancellor
+            within a university system of five universities, more than 400 faculty and staff, and over 18,000
+            students. This mix of executive leadership, consulting, and academic expertise lets him approach
+            organizational challenges from both a strategic and an implementation point of view.
+          </p>
+          <p>
+            His current work focuses on where strategy meets artificial intelligence, helping organizations use AI,
+            foresight, and advanced analytics to strengthen decision-making, innovation, and capabilities, while
+            keeping human judgment, critical thinking, and a long-term view at the center. He works with leaders to
+            clarify strategic priorities, find growth opportunities, navigate uncertainty, and turn strategy into
+            practical, measurable action.
+          </p>
+
+              <div class="founder-card__actions">
+                <a href="#book" class="btn btn-primary">See His Book</a>
+                <a href="#booking" class="btn btn-outline">Work With Us</a>
+              </div>
+            </div>
+
+            <!-- CREDENTIALS -->
+            <div class="founder-panel" role="tabpanel" id="panel-credentials" aria-labelledby="tab-credentials" hidden>
+              <h4 class="panel-title">Credentials</h4>
+              <p class="panel-lead">Formal qualifications, professional standing, and active research.</p>
+
+              <div class="credential-banner">
+                <img src="assets/science_world.png" alt="Vancouver waterfront at dusk" width="1500" height="1000" loading="lazy">
+                <span><i class="fas fa-location-dot" aria-hidden="true"></i> Vancouver, Canada</span>
+              </div>
+
+              <div class="credential-grid">
+                <article class="credential-card credential-card--badge">
+                  <img src="assets/chartered-marketer-badge.png"
+                    alt="Chartered Marketer (CM) badge awarded by the Canadian Marketing Association" width="360" height="360" loading="lazy">
+                  <h5>Chartered Marketer (CM)</h5>
+                  <p>Professional designation from the Canadian Marketing Association, maintained through ongoing professional development.</p>
+                  <span class="credential-card__meta">Issued 16 Oct 2026</span>
+                </article>
+
+                <article class="credential-card">
+                  <span class="credential-card__icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></span>
+                  <h5>PhD, Business Administration</h5>
+                  <p>Specialization in Strategic Marketing. Doctoral research on the relationship between strategic marketing planning and SME performance.</p>
+                </article>
+
+                <article class="credential-card">
+                  <span class="credential-card__icon"><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i></span>
+                  <h5>Senior Lecturer</h5>
+                  <p>Fairleigh Dickinson University, Vancouver Campus. More than two decades of university teaching in business and management.</p>
+                </article>
+
+                <article class="credential-card">
+                  <span class="credential-card__icon"><i class="fas fa-flask" aria-hidden="true"></i></span>
+                  <h5>Funded AI Research</h5>
+                  <p>A CAD $7,200 SSAF-funded project on AI-assisted strategic thinking, the AIRP-S framework, and international research collaboration.</p>
+                </article>
+              </div>
+
+              <h4 class="panel-title panel-title--sub">Consulting Philosophy</h4>
+              <p class="panel-lead">
+                Effective strategy must connect rigorous analysis with practical managerial action. Clients move from
+                symptoms to the underlying strategic issue, weigh internal capabilities against market conditions,
+                compare realistic alternatives, and turn their choices into priorities they can carry out.
+              </p>
+              <ol class="philosophy__steps">
+                <li><span>1</span>Strategic diagnosis</li>
+                <li><span>2</span>Market and competitive insight</li>
+                <li><span>3</span>Strategic alternatives</li>
+                <li><span>4</span>Evidence-based decision-making</li>
+                <li><span>5</span>Implementation</li>
+                <li><span>6</span>Performance evaluation</li>
+              </ol>
+              <p class="philosophy__note"><i class="fas fa-robot" aria-hidden="true"></i> Where it fits, AI supports this process through analysis,
+                scenario development, strategic questioning, and decision support. It does not replace managerial judgment.</p>
+
+              <div class="founder-card__actions">
+                <a href="#booking" class="btn btn-primary">Book a Strategy Session</a>
+                <button type="button" class="btn btn-outline" data-founder-tab="expertise">See Expertise &amp; Experience</button>
+              </div>
+            </div>
+
+            <!-- EXPERTISE & EXPERIENCE -->
+            <div class="founder-panel" role="tabpanel" id="panel-expertise" aria-labelledby="tab-expertise" hidden>
+              <h4 class="panel-title">Areas of Expertise</h4>
+              <ul class="expertise-tiles">
+                <li><i class="fas fa-chess" aria-hidden="true"></i>Strategic Planning</li>
+                <li><i class="fas fa-bullhorn" aria-hidden="true"></i>Strategic Marketing</li>
+                <li><i class="fas fa-rocket" aria-hidden="true"></i>SME &amp; Startup Strategy</li>
+                <li><i class="fas fa-magnifying-glass-chart" aria-hidden="true"></i>Competitive &amp; Market Analysis</li>
+                <li><i class="fas fa-arrow-trend-up" aria-hidden="true"></i>Growth Strategy</li>
+                <li><i class="fas fa-sitemap" aria-hidden="true"></i>Organizational Diagnosis</li>
+                <li><i class="fas fa-brain" aria-hidden="true"></i>AI in Strategic Decision-Making</li>
+                <li><i class="fas fa-users" aria-hidden="true"></i>Customer &amp; Market Strategy</li>
+                <li><i class="fas fa-gauge-high" aria-hidden="true"></i>Performance Improvement</li>
+                <li><i class="fas fa-user-graduate" aria-hidden="true"></i>Executive Education</li>
+                <li><i class="fas fa-chalkboard-user" aria-hidden="true"></i>Management Training</li>
+              </ul>
+
+              <h4 class="panel-title panel-title--sub">Experience in Depth</h4>
+              <div class="expertise-accordion">
+                <details open>
+                  <summary><span class="acc-bg" style="--img:url('assets/bg-tailored-minimal.png')"></span><i class="fas fa-handshake" aria-hidden="true"></i><span class="acc-title">Consulting Experience</span></summary>
+                  <div class="accordion-body">
+            <p>
+              Dr. Hakimpour has advised private, public, and nonprofit organizations. Between 2014 and 2023 he led
+              consulting and strategic advisory engagements in banking, insurance, manufacturing, tourism, municipal
+              government, economic development, and the startup and SME ecosystem.
+            </p>
+            <ul class="check-list">
+              <li>Corporate and business strategic planning</li>
+              <li>Strategic marketing planning</li>
+              <li>Market and competitive analysis</li>
+              <li>Business and organizational diagnosis</li>
+              <li>Growth and market-positioning strategy</li>
+              <li>SME and startup strategy</li>
+              <li>Feasibility and business analysis</li>
+              <li>Organizational performance improvement</li>
+              <li>Branding and customer strategy</li>
+              <li>CRM and customer experience management</li>
+              <li>Strategic workshops and management training</li>
+              <li>AI-assisted strategic analysis and decision-making</li>
+            </ul>
+            <h4>Financial services</h4>
+            <p>
+              Work with Bank Mehr Eghtesad, Bank Melli, Bank Keshavarzi, Kosar Insurance, and Pasargad Insurance,
+              covering strategic analysis, planning, marketing, organizational assessment, and recommendations to
+              strengthen organizational and market performance.
+            </p>
+            <h4>Public sector, tourism, and industry</h4>
+            <p>
+              Strategic planning and advisory services for municipalities and public-sector organizations in South
+              Khorasan Province, and for organizations in tourism, manufacturing, and industrial development,
+              including Birjand Tourism Hotel, the provincial Industry, Mining and Trade Organization, and
+              Mehraskavir Co.
+            </p>
+            <h4>Startups, SMEs, and entrepreneurs</h4>
+            <p>
+              Through the South Khorasan Science and Technology Park, he gave strategic planning and strategic
+              marketing consultation to startups and small businesses, helping management teams examine their markets,
+              clarify competitive positioning, set strategic priorities, and develop practical growth directions.
+            </p>
+            <h4>Roles and engagements</h4>
+            <ul class="check-list check-list--single">
+              <li><strong>2019 to 2022:</strong> Director of the Strategic Research Center, South Khorasan Chamber of
+                Commerce</li>
+              <li><strong>2017 to 2022:</strong> CEO Business Consultant to SAMT</li>
+              <li><strong>Canada:</strong> Marketing coaching and professional mentoring for managers, and growing
+                work with the Canadian startup and SME ecosystem</li>
+            </ul>
+          </div>
+                </details>
+
+                <details>
+                  <summary><span class="acc-bg" style="--img:url('assets/bg-ai-personal-red.png')"></span><i class="fas fa-brain" aria-hidden="true"></i><span class="acc-title">Strategic AI &amp; Business Decision-Making</span></summary>
+                  <div class="accordion-body">
+            <p>
+              A growing focus of his work is the integration of artificial intelligence with strategic thinking and
+              managerial decision-making. Rather than treating AI as only an automation or productivity tool, he
+              shows managers how to use it to strengthen environmental analysis, challenge assumptions, explore
+              alternative strategic scenarios, improve strategic questioning, and support better managerial
+              judgment, while keeping the critical thinking and human judgment that consequential decisions need.
+            </p>
+            <p>
+              He is the author of <a href="#book"><em>Strategic Thinking with AI: Foresight, Tools, and Leadership for
+                  the Digital Age</em></a>, published by Palgrave Macmillan / Springer Nature in 2026. His ongoing
+              research on AI-assisted strategic thinking includes the AIRP-S framework and a funded project on how AI
+              influences strategic thinking. This gives his consulting and executive-development work an
+              evidence-based foundation for the responsible use of AI in strategic management.
+            </p>
+          </div>
+                </details>
+
+                <details>
+                  <summary><span class="acc-bg" style="--img:url('assets/science_world.png')"></span><i class="fas fa-landmark" aria-hidden="true"></i><span class="acc-title">Academic &amp; Executive Leadership</span></summary>
+                  <div class="accordion-body">
+            <p>
+              Before relocating to Canada, Dr. Hakimpour held senior leadership roles in higher education, including
+              Vice Chancellor for Development and Resources Management, Academic Vice Chancellor, Head of Graduate
+              Studies, and Head of the Management Department.
+            </p>
+            <p>
+              His responsibilities covered strategic planning, resource allocation, organizational development,
+              academic administration, human resources, budgeting, institutional performance, and complex stakeholder
+              relationships. This background shapes his approach: a strategy is only as good as the capabilities,
+              resources, leadership processes, and implementation mechanisms behind it.
+            </p>
+          </div>
+                </details>
+
+                <details>
+                  <summary><span class="acc-bg" style="--img:url('assets/bg-collab-minimal.png')"></span><i class="fas fa-book-reader" aria-hidden="true"></i><span class="acc-title">Teaching, Research &amp; Knowledge Transfer</span></summary>
+                  <div class="accordion-body">
+            <p>
+              With more than two decades of university teaching experience, he now teaches business and management
+              courses in Canada. His teaching and research cover strategic management, strategic marketing,
+              leadership, financial administration, organizational management, and AI-assisted strategic
+              decision-making.
+            </p>
+            <p>
+              He is active in academic research and professional knowledge development, with a current portfolio that
+              includes the CAD $7,200 SSAF-funded project on AI-assisted strategic thinking, the AIRP-S framework, and
+              international research collaboration. He has also reviewed for scholarly conferences and journals,
+              including the European Journal of Marketing.
+            </p>
+          </div>
+                </details>
+              </div>
+
+              <div class="founder-card__actions">
+                <a href="#booking" class="btn btn-primary">Book a Strategy Session</a>
+                <button type="button" class="btn btn-outline" data-founder-tab="credentials">See Credentials</button>
+              </div>
+            </div>
+          </div>
+          <noscript><style>.founder-panel[hidden]{display:block!important}</style></noscript>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW BOOK -->
+  <section id="book" class="book-section">
+    <div class="container">
+      <h2 class="section-title">Our Founder&rsquo;s New Book</h2>
+      <p class="section-intro">Now available from Springer Nature / Palgrave Macmillan</p>
+
+      <div class="book-card">
+        <div class="book-card__cover">
+          <a href="https://link.springer.com/book/9783032193872" target="_blank" rel="noopener"
+            aria-label="View Strategic Thinking with AI on Springer Link (opens in a new tab)">
+            <img src="assets/book-strategic-thinking-with-ai.jpg"
+              alt="Cover of Strategic Thinking with AI: Foresight, Tools, and Leadership for the Digital Age by Hossein Hakimpour"
+              width="800" height="1199" loading="lazy">
+          </a>
+        </div>
+
+        <div class="book-card__body">
+          <span class="book-card__badge">New Release</span>
+          <h3 class="book-card__title">Strategic Thinking with AI</h3>
+          <p class="book-card__subtitle">Foresight, Tools, and Leadership for the Digital Age</p>
+          <p class="book-card__author">By Dr. Hossein Hakimpour</p>
+
+          <p>
+            A practical guide for executives, managers, educators, and consultants who want to bring AI into strategic
+            planning. The book combines strategic foresight with hands-on AI applications for decision-making in
+            volatile, uncertain, complex, and ambiguous environments.
+          </p>
+
+          <ul class="book-card__points">
+            <li><i class="fas fa-check-circle"></i> Detect weak signals earlier and build AI-assisted scenarios</li>
+            <li><i class="fas fa-check-circle"></i> Balance human judgment with algorithmic insight</li>
+            <li><i class="fas fa-check-circle"></i> Design ethical, AI-augmented governance and leadership</li>
+            <li><i class="fas fa-check-circle"></i> Learn from case snapshots of companies such as Shell, Siemens, Deloitte, and
+              Microsoft</li>
+          </ul>
+
+          <dl class="book-card__meta">
+            <div><dt>Publisher</dt><dd>Palgrave Macmillan (Springer Nature)</dd></div>
+            <div><dt>Length</dt><dd>446 pages</dd></div>
+            <div><dt>ISBN (softcover)</dt><dd>978-3-032-19386-5</dd></div>
+            <div><dt>ISBN (eBook)</dt><dd>978-3-032-19387-2</dd></div>
+          </dl>
+
+          <div class="book-card__actions">
+            <a href="https://link.springer.com/book/9783032193872" target="_blank" rel="noopener"
+              class="btn btn-primary">View on Springer Link <i class="fas fa-external-link-alt"></i></a>
+            <a href="#booking" class="btn btn-outline">Book a Strategy Session</a>
+          </div>
+        </div>
+
+        <!-- Book video (LinkedIn embed), part of the same card -->
+        <div class="book-card__video" id="book-video">
+          <div class="book-card__video-text">
+            <span class="video-eyebrow"><i class="fas fa-play" aria-hidden="true"></i> Watch</span>
+            <h3>See the Book in Action</h3>
+            <p>A short video introducing <em>Strategic Thinking with AI</em> and the ideas behind it.</p>
+            <ul class="video-chips">
+              <li><i class="fas fa-binoculars" aria-hidden="true"></i>Foresight</li>
+              <li><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i>Tools</li>
+              <li><i class="fas fa-chess-king" aria-hidden="true"></i>Leadership</li>
+            </ul>
+            <div class="video-actions">
+              <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7451215452195676160/" target="_blank"
+                rel="noopener" class="btn btn-light">Watch on LinkedIn <i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="https://link.springer.com/book/9783032193872" target="_blank" rel="noopener"
+                class="btn btn-ghost">Get the Book</a>
+            </div>
+          </div>
+          <div class="book-card__video-frame">
+            <div class="video-embed">
+              <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7451215452195676160?compact=1"
+                height="399" width="504" frameborder="0" scrolling="no" allowfullscreen loading="lazy"
+                title="Video about the book Strategic Thinking with AI, on LinkedIn"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Services Section -->
   <section id="services" class="services-section">
     <div class="container">
@@ -253,7 +655,7 @@
             <li>Predictive analytics for early-stage scaling</li>
           </ul>
           <a href="#booking" class="service-cta">
-            <img src="assets\guide-svgrepo-com.svg" alt="guide" class="cta-icon">
+            <img src="assets/guide-svgrepo-com.svg" alt="guide" class="cta-icon">
             Apply for Startup Advisory</a>
         </article>
 
@@ -297,7 +699,7 @@
             <li>AI-powered budgeting and resource planning</li>
           </ul>
           <a href="#booking" class="service-cta">
-            <img src="assets\curves-ahead-svgrepo-com (1).svg" alt="forecasting" class="cta-icon">
+            <img src="assets/curves-ahead-svgrepo-com (1).svg" alt="forecasting" class="cta-icon">
             Book a Forecasting Demo</a>
         </article>
 
@@ -311,7 +713,7 @@
             <li>Personalized content generation with generative AI</li>
           </ul>
           <a href="#booking" class="service-cta">
-            <img src="assets\marketing-hand-give-bar-chart-statistic-svgrepo-com.svg" alt="marketing" class="cta-icon">
+            <img src="assets/marketing-hand-give-bar-chart-statistic-svgrepo-com.svg" alt="marketing" class="cta-icon">
             Explore AI Marketing Tools</a>
         </article>
 
@@ -326,7 +728,7 @@
             <li>Custom training for teams and incubators</li>
           </ul>
           <a href="#booking" class="service-cta">
-            <img src="assets\teacher-svgrepo-com.svg" alt="training" class="cta-icon">
+            <img src="assets/teacher-svgrepo-com.svg" alt="training" class="cta-icon">
             Request a Training Plan</a>
         </article>
       </div>
@@ -469,7 +871,7 @@
         <h3>Email Us</h3>
         <p>support@hnhbi.com</p>
       </a>
-      <a href="tel:+16041234567" class="contact-card" aria-label="Call Us">
+      <a href="tel:+16043889748" class="contact-card" aria-label="Call Us">
         <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
         <h3>Call Us</h3>
         <p>+1 (604) 388-9748</p>
@@ -501,9 +903,12 @@
         <h4>Quick Links</h4>
         <ul>
           <li><a href="#Home">Home</a></li>
+          <li><a href="#why-choose">About Us</a></li>
+          <li><a href="#founder">Our Founder</a></li>
+          <li><a href="#founder" data-founder-tab="credentials">Credentials</a></li>
+          <li><a href="#book">Our Book</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#about">About Us</a></li>
         </ul>
       </div>
 
